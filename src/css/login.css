@@ -1,0 +1,194 @@
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.seta {
+  position: absolute;
+  top: 10%;
+  left: 10%;
+  width: 30px;
+  height: 30px;
+}
+
+.setaSvg:hover .svg-path {
+  fill: #ff6064;
+}
+
+.master {
+  width: 100%;
+  max-width: 375px;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.login {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login p {
+  font-size: 20px;
+  font-weight: 600;
+  color: #000;
+  margin-bottom: 50px;
+}
+
+.botoes {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.botoes button {
+  width: 100%;
+  max-width: 300px;
+  height: 45px;
+  margin: 10px 0;
+  border: 1px solid black;
+  border-radius: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: white;
+  color: #000;
+  padding: 10px;
+}
+
+.botoes button img {
+  margin-left: 20px;
+}
+
+.botoes a {
+  text-decoration: none;
+  color: #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+}
+
+.botoes p {
+  margin: 0;
+}
+
+.botoes button:hover {
+  background-color: #dddddd;
+}
+
+.facebook,
+.google,
+.apple {
+  background-color: #fff;
+  border: 1px solid #ddd;
+}
+
+.or {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 0;
+}
+
+.or p {
+  margin: 20px 0 10px;
+  font-size: 16px;
+  color: #777;
+}
+
+.botaoLogin {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.botaoLogin button {
+  margin-top: 20px;
+  background-color: #ff6b6b;
+  color: #fff;
+  font-weight: bold;
+  border: none;
+  width: 100%;
+  max-width: 350px;
+  height: 50px;
+  margin: 10px 0;
+  border-radius: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.botaoLogin a {
+  color: white;
+  text-decoration: none;
+}
+
+.botaoLogin button:hover {
+  background-color: #ff7b7b;
+  transition: background-color 0.3s ease;
+  box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.6);
+}
+
+.signUp {
+  gap: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.signUp p {
+  color: #777;
+  font-size: 14px;
+  margin: 5px 0;
+}
+
+.signUp a {
+  text-decoration: none;
+  color: #ff6b6b;
+  cursor: pointer;
+}
+
+.signUp a:hover {
+  text-decoration: underline;
+}
+
+@media only screen and (min-width: 768px) {
+  main {
+    height: 100vh;
+    padding: 0;
+  }
+
+  .seta {
+    top: 5%;
+    left: 5%;
+    width: 40px;
+    height: 40px;
+  }
+
+  .master {
+    max-width: 600px;
+  }
+
+  .login p {
+    font-size: 24px;
+    margin-bottom: 100px;
+  }
+
+  .botoes button {
+    max-width: 400px;
+    height: 45px;
+  }
+
+  .botaoLogin button {
+    max-width: 450px;
+    height: 50px;
+  }
+}
