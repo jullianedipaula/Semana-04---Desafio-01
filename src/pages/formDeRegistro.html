@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/reset.css" />
+    <link rel="stylesheet" href="../css/registro.css" />
+    <link rel="icon" type="image/png" sizes="16x16" href="../img/favicon-16x16.png"/>
+    <script defer src="../js/form.js"></script>
+    <title>Pomo</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="master">
+        <div class="logo">
+          <img src="../img/logo-pomo.svg" alt="Logo" />
+        </div>
+        <div class="formDeRegistro">
+          <h2>Create your account</h2>
+          <form id="formDeRegistro">
+            <label for="name">Name</label>
+            <input
+              type="text"
+              id="name"
+              name="name"
+              placeholder="Name"
+              required
+            />
+
+            <label for="email">E-mail</label>
+            <input
+              type="email"
+              id="email"
+              name="email"
+              placeholder="E-mail"
+              required
+            />
+
+            <label for="password">Password</label>
+            <input
+              type="password"
+              id="password"
+              name="password"
+              placeholder="Password"
+              required
+            />
+
+            <label for="confirmPassword">Confirm password</label>
+            <input
+              type="password"
+              id="confirmPassword"
+              name="confirmPassword"
+              placeholder="Confirm password"
+              required
+            />
+
+            <div class="botaoRegistro">
+              <button type="button" class="backButton">
+                <a href="./login.html">Go Back</a>
+              </button>
+              <button type="submit" class="submitButton">Create Account</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

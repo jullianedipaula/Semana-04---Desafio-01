@@ -1,0 +1,129 @@
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #ff5c5c;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+}
+
+.master {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo {
+  margin-bottom: 20px;
+}
+
+.logo img {
+  width: 100px;
+  height: 100px;
+}
+
+.formDeRegistro {
+  background-color: white;
+  padding: 20px;
+  border-radius: 25px;
+  width: 375px;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin-bottom: 5px;
+  font-size: 14px;
+}
+
+input {
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid black;
+  border-radius: 25px;
+}
+
+.botaoRegistro {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.backButton,
+.submitButton {
+  width: 48%;
+  text-align: center;
+}
+
+.backButton {
+  border: 1px solid black;
+  background-color: white;
+  padding: 10px 20px;
+  border-radius: 25px;
+  cursor: pointer;
+}
+
+.backButton a {
+  text-decoration: none;
+  color: black;
+}
+
+.submitButton {
+  background-color: #ff5c5c;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  color: white;
+}
+
+.submitButton:hover {
+  background-color: #ff3b3b;
+}
+
+.backButton:hover {
+  background-color: #dddddd;
+}
+
+@media only screen and (min-width: 768px) {
+  .master {
+    flex-direction: row;
+    gap: 50px;
+  }
+
+  .logo img {
+    width: 200px;
+    height: 200px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .master {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .logo img {
+    width: 100px;
+    height: 100px;
+  }
+}
