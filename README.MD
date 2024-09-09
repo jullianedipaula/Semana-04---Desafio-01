@@ -6,7 +6,10 @@
 
 O Pomo é uma aplicação web projetada para ajudar os usuários a gerenciar suas tarefas e aumentar a produtividade utilizando a técnica Pomodoro. A aplicação inclui funcionalidades como criação de contas, login, e acompanhamento de produtividade.
 
+
+
 **Funcionalidades**
+
 
 *Gerenciamento de Tarefas: Acompanhe suas atividades e produtividade.
 
@@ -17,7 +20,10 @@ O Pomo é uma aplicação web projetada para ajudar os usuários a gerenciar sua
 *Interface Responsiva: Funciona em dispositivos móveis e desktops.
 
 
+
 **Tecnologias Utilizadas**
+
+
 
 *HTML: Estrutura das páginas.
 
@@ -28,7 +34,10 @@ O Pomo é uma aplicação web projetada para ajudar os usuários a gerenciar sua
 *LocalStorage: Armazenamento de dados do usuário no navegador.
 
 
+
 **Como Instalar e Executar**
+
+
 
 *Faça o download dos arquivos do projeto.
 
@@ -39,7 +48,10 @@ O Pomo é uma aplicação web projetada para ajudar os usuários a gerenciar sua
 *Você será redirecionado para a tela de apresentação e poderá navegar pelas demais telas.
 
 
+
 **Descrição dos Arquivos CSS**
+
+
 
 *reset.css: Define regras de reset para remover margens, paddings e aplicar a fonte padrão do projeto​.
 
